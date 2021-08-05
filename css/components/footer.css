@@ -1,0 +1,27 @@
+.footer {
+  background-color: #a37f67;
+  height: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer li {
+  margin: 10px 10px;
+  font-size: 32px;
+}
+
+.footer a {
+  color: #e1bba2;
+}
+
+.footer a:hover {
+  color: #7e604c;
+  transition: 0.2s;
+}
